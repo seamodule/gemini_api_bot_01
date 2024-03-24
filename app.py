@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # GOOGLE_API_KEY の設定
 # genai.configure(api_key=secret_keys.google_api_key)
-genai.configure(api_key=se.secrets.GoogleAPI.oogle_api_key)
+genai.configure(api_key=st.secrets.GoogleAPI.google_api_key)
 
 model = genai.GenerativeModel("gemini-pro")
 
